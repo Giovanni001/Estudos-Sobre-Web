@@ -1,0 +1,37 @@
+*{
+    margin: 20px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 500px;
+    grid-template-rows: 400px;
+    grid-gap: 10px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'Oswald';
+    font-size: 30px;
+    
+}
+
+
+.controlElements {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 50px;
+    background-color: salmon;
+    text-align: center;
+    padding: 0px 0px;
+    border-radius: 300px;
+}
+
+.controlElements2 {
+    display: flex;
+    margin: 0;
+    padding: 13px 13px;
+}
+
+
+

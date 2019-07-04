@@ -1,0 +1,23 @@
+* {margin: 0px;}
+
+.item1 {grid-area: menu;}
+
+.item2 { grid-area: cabecalho;}
+
+.item3 {grid-area: conteudo;}
+
+.item4 {grid-area: rodape;}
+
+.container {
+    display: grid;
+    grid-template-rows: 80px 300px 400px 200px;
+    grid-template-areas: 'menu menu'
+                         'cabecalho cabecalho'
+                         'conteudo conteudo'
+                         'rodape rodape';
+    grid-gap: 10px;
+    
+   
+}
+ 
+

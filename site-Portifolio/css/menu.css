@@ -1,0 +1,47 @@
+
+
+ul {
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 18px 400px;  
+}
+
+li {
+    display: inline-block;
+    font-family: 'Oswald';
+    padding: 5px 0px;
+}
+
+.bg-color-item1{
+    background-color: rgb(65, 63, 63);
+}
+
+.item1 {
+    position: fixed;
+    color: aliceblue;
+    border-bottom: solid 5px rgb(67, 139, 233);
+    width: 100%;
+}
+ a {
+     text-decoration: none;
+     color: #eee;
+     font-size: 20px;
+ }
+
+ .item1 a {
+     padding: 10px;
+ }
+
+ .item1 a:hover {
+     box-sizing: border-box;
+     background-color: rgb(67, 139, 233); 
+     margin: 15px;
+     transition: 0.5s; 
+ }
+
+
+
+
+
