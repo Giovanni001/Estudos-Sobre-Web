@@ -4,23 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(246, 244, 241);
+    background-color: rgb(42, 37, 37);
+
+}
+
 .container {
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 300px;
+    grid-template-rows: 300px 200px;
     grid-gap: 10px;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
     
 }
 
 .git{
     display: flex;
-    align-self: center;   
+    align-self: center;  
 }
 
 .texto{
-    display: flex;
-    flex-direction: column;
     font-family: 'Oswald';
     font-size: 30px;
     background-color: rgb(250, 87, 69);
@@ -33,14 +36,43 @@
 }
 
 .center {
-    display: flex;
-    padding: 50px 50px;
-    
-    
-   
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 120px 60px;
 }
 
+.click {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
 
+    font-family: 'Oswald';
+    font-size: 30px;
+    
+}
+
+.botao-estilo {
+    background-color: #88b1ff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Oswald';
+    background-color: rgb(148, 167, 231); /* Green */
+    color:white;
+    border: none;
+}
+
+.botao-estilo:hover {
+    background-color: #697fb4;
+}
 
 
 

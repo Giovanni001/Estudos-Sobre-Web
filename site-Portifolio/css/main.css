@@ -1,23 +1,139 @@
 * {margin: 0px;}
 
-.item1 {grid-area: menu;}
+body {
+    background-color: rgb(42, 37, 37);
+    }
+
+/*.item1 {grid-area: menu;}
 
 .item2 { grid-area: cabecalho;}
 
 .item3 {grid-area: conteudo;}
 
-.item4 {grid-area: rodape;}
+.item4 {grid-area: rodape;}*/
 
 .container {
     display: grid;
-    grid-template-rows: 80px 300px 400px 200px;
-    grid-template-areas: 'menu menu'
+    grid-template-rows: 80px 300px 300px 300px 300px;
+    grid-template-columns: 600px 600px;
+    /*grid-template-areas: 'menu menu'
                          'cabecalho cabecalho'
                          'conteudo conteudo'
-                         'rodape rodape';
+                         'rodape rodape'; */
     grid-gap: 10px;
     
    
 }
+
+.rodape {
+    display: grid;
+    grid-template-columns: 1022px;
+    grid-template-rows: 200px;
+    background-color: rgb(92, 90, 90);
+}
+
+.frase1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    padding: 100px 0px 0px 140px;
+    font-style: italic;
+    color: white;
+}
+
+
+.imagem1 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    padding: 50px 0px 0px 200px;
+}
+
+.frase2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    padding: 100px 0px 0px 130px;
+    font-style: italic;
+    color: white;
+    
+}
+
+.imagem2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+    padding: 50px 0px 0px 230px;
+}
+
+
+.frase3 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    padding: 130px 0px;
+    font-style: italic;
+    color: white;
+}
+
+.imagem3 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+    padding: 50px 0px 0px 240px;
+}
+
+.frase4 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    padding: 130px 0px 0px 130px;
+    font-style: italic;
+    color: white;
+}
+
+.imagem4 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+    padding: 50px 0px 0px 170px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+
+
+
  
 

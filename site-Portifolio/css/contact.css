@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(246, 244, 241);
+    background-color: rgb(42, 37, 37);
+}
 .container {
     display: grid;
     grid-template-columns: 400px 500px;
-    grid-template-rows: 400px;
+    grid-template-rows: 400px ;
     grid-gap: 10px;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px 0 rgba(214, 213, 213, 0.3);
     font-family: 'Oswald';
     font-size: 30px;
+    color: white;
     
 }
 
@@ -25,6 +30,7 @@
     text-align: center;
     padding: 0px 0px;
     border-radius: 300px;
+    color: black;
 }
 
 .controlElements2 {
@@ -33,5 +39,26 @@
     padding: 13px 13px;
 }
 
+.botao {
+    margin: -90px 0px 0px 0px;
+}
+
+.botao-estilo {
+    background-color: #88b1ff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Oswald';
+    background-color: rgb(148, 167, 231); /* Green */
+    color:white;
+    border: none;
+}
+
+.botao-estilo:hover {
+    background-color: #697fb4;
+}
 
 
