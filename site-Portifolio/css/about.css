@@ -9,13 +9,13 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 300px 300px;
     grid-template-rows: 130px 400px;
     grid-gap: 10px;
     /*box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);*/
 }
 
-.main {
+.main2 {
     display: grid;
     grid-row-start: 2;
     grid-column-start: 1;
@@ -23,7 +23,7 @@ body {
    
 }
 
-.main img {
+.main2 img {
     width: 100%;
 }
 

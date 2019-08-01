@@ -1,7 +1,7 @@
 window.onload = function () {
     var template = `
     <body>
-    <div class="container">
+    <div class="container2">
         <div class="item1 bg-color-item1">
             <ul class="texto">
                 <li>
