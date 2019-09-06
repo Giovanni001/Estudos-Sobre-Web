@@ -17,11 +17,11 @@ window.onload = function () {
                 </li>
 
                 <li>
-                    <a href="#linkedin">Linkedin</a>
+                    <a href="linkedin.html">Linkedin</a>
                 </li>
 
                 <li>
-                    <a href="">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>

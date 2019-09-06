@@ -1,129 +1,146 @@
-
+* {margin: 0px;}
 
 body {
     background-color: rgb(42, 37, 37);
-
-   
-
 }
 
 .container {
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 130px 400px;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 80px 400px;
     grid-gap: 10px;
-    /*box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);*/
+    padding: 65px;
 }
 
-.main2 {
+.containerTwo {
     display: grid;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-template-columns: 1200px;
+    grid-template-rows: 80px 300px 300px;
+    grid-gap: 10px;
    
 }
 
-.main2 img {
-    width: 100%;
-}
-
-
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-    padding: 50px 40px;
-}
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    /*box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);*/
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
-    border: solid 5px blue;
-}
-
-
-
-.flip-card-back {
-    background-color: #000000;
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.flip-card-back {
-    background-color: #000000;
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.texto {
-    display: grid;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    background-color: rgb(211, 222, 251);
+img { 
     border-radius: 10px;
-    padding: 50px 15px;
+}
+
+.infoTexto {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
     font-family: 'Oswald';
-    font-size: 25px;
-    margin: 30px;
-}
-
-.sombra-texto {
-    box-shadow: 0 4px 20px 0 rgba(255, 255, 255, 0.5);
-}
-
-.text-flip-card {
-    font-family: 'Bree Serif', serif;
-    font-size: 25px;
-}
-
-@font-face {
-    src: url("../fontes/Oswald-Medium.ttf");
-    font-family: 'Oswald-Medium';
-}
-
-
-.botao {
-    margin: 15px 15px;
-}
-
-.botao-estilo {
-    background-color: #88b1ff;
-    display: inline-block;
-    text-decoration: none;
+    font-size: 30px;
+    color: white;
     text-align: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 22px;
-    font-family: 'Oswald-Medium';
-    background-color: rgb(148, 167, 231); /* Green */
-    color:white;
-    border: none;
+    box-shadow: 0 4px 20px 0 rgba(136, 125, 125, 0.3);
+    padding: 150px 0px 0px 0px;
+
 }
 
-.botao-estilo:hover {
-    background-color: #697fb4;
+.infoImagem {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-content: center;
+    padding: 25px 0px 0px 0px;
 }
-   
+
+.giovanniImg {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.texto1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald';
+    justify-content: center;
+    padding: 50px 0px 0px 0px;    
+}
+
+.texto1Estilo {
+    background-color: tomato;
+    text-align: center;
+    height: 45px;
+    width: 270px;
+    border-radius: 300px;
+    transition: 2s;
+}
+
+.texto1Estilo:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 2s;
+    background-color: red; 
+}
+
+.frase1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.texto2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald';
+    justify-content: center;
+    padding: 50px 0px 0px 0px;    
+}
+
+.texto2Estilo {
+    background-color: green;
+    text-align: center;
+    height: 45px;
+    width: 270px;
+    border-radius: 300px;
+    transition: 2s;
+}
+
+.texto2Estilo:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 2s;
+    background-color: rgb(8, 78, 8); 
+}
+
+.frase2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+}
+
+
+
+
+
 
 

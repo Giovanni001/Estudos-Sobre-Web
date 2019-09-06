@@ -32,6 +32,7 @@ li {
 
  .item1 a {
      padding: 10px;
+     transition: 0.5s;
  }
 
  .item1 a:hover {

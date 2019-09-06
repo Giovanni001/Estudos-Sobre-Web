@@ -1,78 +1,68 @@
-*{
-    margin: 30px 40px;
-    padding: 20px;
-    box-sizing: border-box;
-}
+* {margin: 0px;}
+
 
 body {
-    background-color: rgb(246, 244, 241);
+    
     background-color: rgb(42, 37, 37);
 
 }
 
 .container {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 300px 200px;
+    grid-template-columns: 1150px;
+    grid-template-rows: 80px 430px;
     grid-gap: 10px;
-    
+    padding: 60px;
 }
 
-.git{
-    display: flex;
-    align-self: center;  
+.imagem {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    box-shadow: 0 4px 20px 0 rgba(136, 125, 125, 0.3);
+    justify-content: center;
 }
 
-.texto{
-    font-family: 'Oswald';
+.git {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-family: "Oswald";
     font-size: 30px;
-    background-color: rgb(250, 87, 69);
-    width: 120px;
-    height: 50px;
-    border-radius: 300px;
-    text-align: center;
-    padding: 0px 0px;
-    
-}
-
-.center {
-    display: grid;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    padding: 120px 60px;
-}
-
-.click {
-    display: grid;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    text-align: center;
+    justify-content: center;
     color: white;
+    padding: 360px 100px 0px 60px;
+}
 
-    font-family: 'Oswald';
-    font-size: 30px;
+.gitEstilo {
+    background-color: tomato;
+    padding: 5px 5px 5px 5px;
+    height: 45px;
+    border-radius: 300px;
     
 }
 
-.botao-estilo {
-    background-color: #88b1ff;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 22px;
-    font-family: 'Oswald';
-    background-color: rgb(148, 167, 231); /* Green */
-    color:white;
-    border: none;
+.fraseGit {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-family: "Oswald";
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    padding: 290px 100px 0px 60px;
 }
 
-.botao-estilo:hover {
-    background-color: #697fb4;
-}
+
+
+
+
+
+
+
 
 
 
